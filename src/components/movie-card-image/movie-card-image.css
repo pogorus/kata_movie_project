@@ -1,0 +1,18 @@
+.posterBig {
+  width: 180px;
+}
+
+.posterSmall {
+  display: none;
+}
+
+@media (max-width: 490px) {
+  .posterBig {
+    display: none;
+  }
+  .posterSmall {
+    display: block;
+    width: 60px;
+    min-width: 60px;
+  }
+}

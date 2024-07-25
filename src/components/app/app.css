@@ -1,0 +1,31 @@
+.main_background {
+  background-color: rgba(247, 247, 247, 1);
+}
+
+.main_content {
+  width: 70%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 710px) {
+  .main_content {
+    width: 100%;
+  }
+}
+
+.nothing_found_error {
+  height: 20vh;
+  width: 94%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.spinner_layer {
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+}

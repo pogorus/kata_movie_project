@@ -1,0 +1,75 @@
+.description-layer {
+  width: 240px;
+}
+
+@media (max-width: 490px) {
+  .description-layer {
+    width: 365px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  .descriptionSmall {
+    gap: 10px;
+  }
+}
+
+.movie_title {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 490px) {
+  .movie_title {
+    margin: 0;
+  }
+}
+
+.movie_rating {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-left: 5px;
+  flex-shrink: 0;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  line-height: 17px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 490px) {
+  .movie_rating {
+    margin: 0;
+  }
+}
+
+.release_date {
+  font-size: 12px;
+  margin: 0;
+}
+
+@media (max-width: 490px) {
+  .release_date {
+    margin: 0;
+  }
+}
+
+.rating_bar {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.description_header {
+  width: 100%;
+}
+
+.overview {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
